@@ -1,20 +1,28 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, SQL, GCP, Azure, Docker, Airflow
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- Master’s Degree in Engineering, Mathematics & Data | GRENOBLE INP (_September 2023_)								       		
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Data Scientist intern @ Heineken France (_February 2023 - July 2023_)**
+- Designing data processing solutions in accordance with good practices.
+- Build and deploy data processing pipelines on Azure Cloud technologies (Datafactory, Synapse, data bricks).
+- Maintaining and improving the Machine Learning algorithms (python) used at Heineken France (sales forecast, recommendation engine for the E-commerce site, calculation of the impact of marketing campaigns, connected brewery). 
+- The creation and improvement of data recovery dashboards as a decision support tool for operational staff.
+- A technology monitoring on the practices and tools of data engineering / ML especially with the group HEINEKEN in the world.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Data Science intern @ Carrefour Group (_April 2022 - September 2022)**
+- Development and production of AI tools (scoring models, segmentation models and dashboards) for the various departments of the carrefour group: carrefour Bank, carrefour Insurance, carrefour retail, carrefour travel, ....
+- Use of Google coud platform ( Cloud engine, Big Query, Cloud Storage, Source Repository, Bitbucket...)
+- Different ML algorithms depending on the use case (Python).
+- Rstudio and Rshiny to build dashboards and apps.
+
+**Machine Learning intern @ EDF R&D (_September 2021 - February 2022)**
+- Structuring and constitution of a database of events and disturbances of electrical origin.
+- Clustering and labelling of electrical disturbances signatures.
+- Development of an in-house web app.
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
