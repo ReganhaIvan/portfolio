@@ -1,6 +1,5 @@
-layout: default
 title: Ivan Reganha
-logo_path: "/assets/img/Image-min.jpeg"
+logo: /assets/img/Image-min.jpeg
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
