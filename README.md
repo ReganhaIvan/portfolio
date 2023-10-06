@@ -25,7 +25,8 @@ Welcome to my Data Science Projects Portfolio! This repository contains a collec
 - Development of an in-house web app.
 
 ## Personal Projects
-### Titanic Survival Prediction
+
+**Titanic Survival Prediction
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 - Description: The project predicts the survival during the titanic disaster based on socio-economic measures
