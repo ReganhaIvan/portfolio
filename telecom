@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Telecom Customer Churn Prediction</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon-32x32.png">
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="logo">Data Science Projects</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="profile.html">Profile</a></li>
+      </ul>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/sukhmansingh1612/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://www.instagram.com/sukhmansingh_1612/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/SUKHMAN-SINGH-1612" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+      <!-- Post -->
+      <section class="post">
+        <header class="major">
+          <h1>Telecom Customer Churn Prediction</h1>
+        </header>
+        <div class="image main"><img src="https://camo.githubusercontent.com/8fb31d88d03b71756873f0bb402a7f5998071814160ef3e8f11b750d7cf1a380/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3739352f302a3849755f65796d723665522d59755177" alt="" /></div>
+        <p><h2>Project Overview</h2></p>
+        <p>The aim of this project is to analyze customer demographics, services, tenure, and other variables to predict whether a particular customer will churn or not.</p>
+
+        <!-- Data Dictionary -->
+        <h2>Data Dictionary</h2>
+        <table>
+<thead>
+<tr>
+  <th>Variable</th>
+  <th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>CustomerID</td>
+  <td>Unique customer ID</td>
+</tr>
+<tr>
+  <td>Gender</td>
+  <td>Customer's gender</td>
+</tr>
+<tr>
+  <td>SeniorCitizen</td>
+  <td>Whether the customer is a senior citizen or not (1, 0)</td>
+</tr>
+<tr>
+  <td>Partner</td>
+  <td>Whether the customer has a partner or not (Yes, No)</td>
+</tr>
+<tr>
+  <td>Dependents</td>
+  <td>Whether the customer has dependents or not (Yes, No)</td>
+</tr>
+<tr>
+  <td>Tenure</td>
+  <td>Number of months the customer has stayed with the company</td>
+</tr>
+<tr>
+  <td>PhoneService</td>
+  <td>Whether the customer has a phone service or not (Yes, No)</td>
+</tr>
+<tr>
+  <td>MultipleLines</td>
+  <td>Whether the customer has multiple lines or not (Yes, No, No phone service)</td>
+</tr>
+<tr>
+  <td>InternetService</td>
+  <td>Customer’s internet service provider (DSL, Fiber optic, No)</td>
+</tr>
+<tr>
+  <td>OnlineSecurity</td>
+  <td>Whether the customer has online security or not (Yes, No, No internet service)</td>
+</tr>
+<tr>
+  <td>OnlineBackup</td>
+  <td>Whether the customer has online backup or not (Yes, No, No internet service)</td>
+</tr>
+<tr>
+  <td>DeviceProtection</td>
+  <td>Whether the customer has device protection or not (Yes, No, No internet service)</td>
+</tr>
+<tr>
+  <td>TechSupport</td>
+  <td>Whether the customer has tech support or not (Yes, No, No internet service)</td>
+</tr>
+<tr>
+  <td>StreamingTV</td>
+  <td>Whether the customer has streaming TV or not (Yes, No, No internet service)</td>
+</tr>
+<tr>
+  <td>StreamingMovies</td>
+  <td>Whether the customer has streaming movies or not (Yes, No, No internet service)</td>
+</tr>
+<tr>
+  <td>Contract</td>
+  <td>The contract term of the customer (Month-to-month, One year, Two year)</td>
+</tr>
+<tr>
+  <td>PaperlessBilling</td>
+  <td>Whether the customer has paperless billing or not (Yes, No)</td>
+</tr>
+<tr>
+  <td>PaymentMethod</td>
+  <td>The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))</td>
+</tr>
+<tr>
+  <td>MonthlyCharges</td>
+  <td>The amount charged to the customer monthly</td>
+</tr>
+<tr>
+  <td>TotalCharges</td>
+  <td>The total amount charged to the customer</td>
+</tr>
+<tr>
+  <td>Churn</td>
+  <td>Whether the customer churned or not (Yes or No)</td>
+</tr>
+</tbody>
+</table>
+
+        <!-- Conclusion -->
+        <h2>Conclusion</h2>
+        <p>From the exploratory data analysis, I came to know that senior citizens have a lower churn count, whereas customers who are single or don't have dependents have a higher churn count. In addition to that, customers are more satisfied with the streaming services than other services such as Online backup and Device protection, which has resulted in a lower churn count in customers with streaming services than other services.</p>
+        <p>The tenure has an inverse relation with churn count, where customers with tenure shorter than 5 months have a higher churn count. Moreover, customers with a month-to-month contract have a higher churn count compared to those with one or two-year contracts, which also proves that customers who have a longer contract with the company have a lower churn count.</p>
+        <p>It has been observed that customers with higher monthly charges and lower total charges have a higher churn count. Therefore, the company should focus on lowering the monthly charges for the customers in order to reduce the churn count. From the feature importance, it is clear that the tenure, contract, monthly charges, and total charges are the most important features for predicting customer churn. Therefore, the company should focus on these features to reduce customer churn.</p>
+        <p>Coming to the machine learning models, I have used three models - Decision Tree Classifier, Random Forest Classifier, and K Nearest Neighbors Classifier. The Random Forest Classifier has the highest accuracy i.e. 82% and F1 Score, and lowest mean squared error, mean absolute error. Therefore, the Random Forest Classifier is a good fit for predicting customer churn.</p>
+
+        <!-- Add any additional content for the conclusion here -->
+
+        <a href="notebook/Telecom Customer Churn Prediction.html" class="button">View Notebook</a>
+				<a href="https://raw.githubusercontent.com/SUKHMAN-SINGH-1612/Data-Science-Projects/main/Telecom%20Customer%20Churn%20Prediction/WA_Fn-UseC_-Telco-Customer-Churn.csv" class="button">Download Dataset</a>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <section>
+        <h2>Get in Touch</h2>
+        <section class="split contact"></section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="mailto:sukhmansinghbhogal@gmail.com">sukhmansinghbhogal@gmail.com</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icons alt">
+            <li><a href="https://www.linkedin.com/in/sukhmansingh1612/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+            <li><a href="https://www.instagram.com/sukhmansingh_1612/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://github.com/SUKHMAN-SINGH-1612" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+          </ul>
+        </section>
+      </section>
+    </footer>
+
+    <!-- Copyright -->
+    <div id="copyright">
+      <ul>
+        <li>&copy; Sukhman Singh</li>
+        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
